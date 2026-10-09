@@ -1,0 +1,623 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 32697 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-07T21:00:54Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tulen" at "2026-10-07T21:00:54.3931642Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Itmo/Simple 2D Template
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61470
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Itmo/Simple 2D Template
+D:/Itmo/Simple 2D Template
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [30660]  Target information:
+
+Player connection [30660]  * "[IP] 192.168.1.58 [Port] 0 [Flags] 2 [Guid] 1013336977 [EditorId] 1013336977 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QELV7H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30660]  * "[IP] 172.23.69.104 [Port] 0 [Flags] 2 [Guid] 1013336977 [EditorId] 1013336977 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QELV7H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30660]  * "[IP] 169.254.77.236 [Port] 0 [Flags] 2 [Guid] 1013336977 [EditorId] 1013336977 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QELV7H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30660]  * "[IP] 172.21.208.1 [Port] 0 [Flags] 2 [Guid] 1013336977 [EditorId] 1013336977 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QELV7H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30660] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30660] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Itmo/Simple 2D Template/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:          NVIDIA
+    VRAM:            5966 MB
+    App VRAM Budget: 5198 MB
+    Driver:          32.0.16.1692
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-tulen"
+[Licensing::IpcConnector] LicenseClient-tulen channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tulen-6000.4.0" at "2026-10-07T21:00:55.9414921Z"
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007586 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              9a303864406a4dd48021a53be2c86525
+  Correlation Id:          d2bf7724a6467fdb4e9bd6ed80eb5408
+  External correlation Id: 4172901811771975223
+  Machine Id:              PB77ogPr3xHNls8ASUjqv5focvY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-tulen-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 1.60s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tulen-6000.4.0-notifications" at "2026-10-07T21:00:57.5426607Z"
+[Licensing::Module] Licensing Background thread has ended after 3.15s
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.801 seconds
+Domain Reload Profiling: 1785ms
+	BeginReloadAssembly (252ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (153ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (239ms)
+		AnalyzeDomain (446ms)
+			TypeCache.Refresh (443ms)
+				TypeCache.ScanAssembly (413ms)
+	FinalizeReload (804ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (108ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (153ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10170907249122-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 1100ms
+	BeginReloadAssembly (324ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (30ms)
+		LoadAssemblies (167ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (3ms)
+	FinalizeReload (588ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (32.3 KB). Loaded Objects now: 695.
+Memory consumption went from 64.8 MB to 64.8 MB.
+Total: 5.383100 ms (FindLiveObjects: 0.103400 ms CreateObjectMapping: 0.012000 ms MarkObjects: 5.062000 ms  DeleteObjects: 0.202500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 706588.622635 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Textures/Lever_position05.png
+  importAddress: Guid(799f67c2035f9f441938e2be8676d387) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Textures/Lever_position05.png using Guid(799f67c2035f9f441938e2be8676d387) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a70649f66e077e87ca7de85b8b22cc10') in 0.1953303 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f021fcfa0bb88d01df525715bbae724 DependenciesID=7fd2a67f08a39154db8a3ee29a838639 StaticDependenciesID=443d47cfb122662b6066f16968f68610 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Textures/keyhole.png
+  importAddress: Guid(cfd1b701d13195a4ebc5b97a65e59c8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Textures/keyhole.png using Guid(cfd1b701d13195a4ebc5b97a65e59c8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2c2a4005f3c96fdc09518ce088f677c0') in 0.0145428 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d63228ce3552111f068c857f01295db DependenciesID=ad98bfbe7a998c32b37722d5a1e4664b StaticDependenciesID=205508089bdfe10d68c8407d8b2f5be7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.png
+  importAddress: Guid(3ca922221cf29e34fbd35f933b9498a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.png using Guid(3ca922221cf29e34fbd35f933b9498a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ee6ac1fc10f3a31450e2109367df32d3') in 0.0196765 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=941e56ff09351193529c342aa60633b7 DependenciesID=9d1f5cced9a3ee3137bd69296f2d15cb StaticDependenciesID=eeb30290fea4643e0a2dff753ba1c8ee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Editor/ReplacePrefab.cs
+  importAddress: Guid(5a8efd87f0d6f5b4eb0203b613f78207) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Editor/ReplacePrefab.cs using Guid(5a8efd87f0d6f5b4eb0203b613f78207) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '61a7bd8bb67bd5e2625bd7d39f781b80') in 0.0093074 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=adc89b1e61fdecacac6e213e4f2b0f3d DependenciesID=458be1d858ac6fedd15b345c4d0b96b1 StaticDependenciesID=db6474881babc7ab3e26e3a2bf3750ac 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Character/CharacteAnimIdle.anim
+  importAddress: Guid(6de24d4294df3e94c885f8b8ab75153f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Character/CharacteAnimIdle.anim using Guid(6de24d4294df3e94c885f8b8ab75153f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd2883f9dfbd4bdcf3f29f530df5cf01f') in 0.0171323 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f9fde34f672adac953a2edb253918ecc DependenciesID=57a560519e478b4d8fb726f547cd9d91 StaticDependenciesID=22fc961353f9017c8eefa71e01ebe747 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Prefabs/TreeBackground.prefab
+  importAddress: Guid(91529c2350cce4a0eae08093c4300e94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Prefabs/TreeBackground.prefab using Guid(91529c2350cce4a0eae08093c4300e94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3d2f3dbf10ccfae0318b3a83f8d0e46b') in 0.0226529 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b9feec1b6932ebff6d78dc975419a68 DependenciesID=7fc8a257a845c04c0ca5af0f0fd9d092 StaticDependenciesID=9f343c0c5c376539a338ec9db546d15c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IndieMarc/Simple2DTemplate.pdf
+  importAddress: Guid(599ab31ae15957a43a88a60d8ee8ecdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/Simple2DTemplate.pdf using Guid(599ab31ae15957a43a88a60d8ee8ecdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e363c91b66f5cb1b9c4a59c219c93777') in 0.0092974 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=04e4e9e12bc4ec206928e476e669f4a4 DependenciesID=081084258171152cf820cc164b5fc077 StaticDependenciesID=cccfd762feee0508292b3b266c965d3e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Scripts/CarryItem.cs
+  importAddress: Guid(c71065c03f3c5b642a57b1edf9e9734d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Scripts/CarryItem.cs using Guid(c71065c03f3c5b642a57b1edf9e9734d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c6acd72e3bc2ec66472d29866263d576') in 0.009082 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8fe786bcfa6fc6406c10dc3ad1094294 DependenciesID=6609dc534045fb815f5c303659987a9c StaticDependenciesID=7fb8f72699e3f7c45573aa9b091c172f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Prefabs/CharacterTopDown.prefab
+  importAddress: Guid(25325a4f845eebc47b1a00b01a949eda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Prefabs/CharacterTopDown.prefab using Guid(25325a4f845eebc47b1a00b01a949eda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e6eadb586dfd266fc0e98d7236435ac') in 0.0837084 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e4ee6d309c342f52aad4d4fe0a23924 DependenciesID=a25a2afadf113d36c5dcc6a30e72a7bc StaticDependenciesID=ec9d85111bad835a730095bd3e6811ec 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.mat
+  importAddress: Guid(9272c368c2ea4004d93dd9539f956312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.mat using Guid(9272c368c2ea4004d93dd9539f956312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6e3cf2d12430e518a5e3b70c156c4b78') in 0.0757016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=635501a8a64f9b87707b5758da60dba1 DependenciesID=c9a88b7a7904803df0b101b18b847102 StaticDependenciesID=fea431d803a222c854890aa088548055 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterLeft.anim
+  importAddress: Guid(17809628ed110b342a9634c0e61c068a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Sprites/CharacterLeft.anim using Guid(17809628ed110b342a9634c0e61c068a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '31a22b2e02223cf4244b78dcae80043b') in 0.0125903 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce0d26968526333d38be5086f5542b2f DependenciesID=98e64d79eaf6473bfc2ca8420a96c57b StaticDependenciesID=44d1edc3cfa2120e61b0c0f11415513f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Scripts/FixOffset.cs
+  importAddress: Guid(c0bd7fac34fb87a4994aa02be6d6bd02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Scripts/FixOffset.cs using Guid(c0bd7fac34fb87a4994aa02be6d6bd02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a617bcc833d6af7794934c43cafe47b9') in 0.0112751 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e61164dbb0725b645532a6940dc26c29 DependenciesID=a2e9f9e4ab375996f1dbd47bbbc8cba1 StaticDependenciesID=e5f162ed1ccfb776923762b00bfae544 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterLeftHold.anim
+  importAddress: Guid(e4c1420f815f1df48aca73d3c4726745) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Sprites/CharacterLeftHold.anim using Guid(e4c1420f815f1df48aca73d3c4726745) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '567b15b6f046ed58d07d80ff66a8a25d') in 0.0128116 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ce2d770f52cc292c0916b5655dd2892 DependenciesID=7887b1f2b63e9724dd27143e8c0cdcbc StaticDependenciesID=15449912a00d1c0c7fd513f0c2fa8fe5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Textures/key.png
+  importAddress: Guid(6611abd9b8cfcf8459181905b25b9abc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Textures/key.png using Guid(6611abd9b8cfcf8459181905b25b9abc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d363d3800431a2658e41cb162c708a0') in 0.0177162 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5db4cebd628ae0307566a975e88ef306 DependenciesID=6372fb197a425475c432a426905f2aa3 StaticDependenciesID=b28a418fa5558031c7c7a71bcf625d86 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterTopDown.controller
+  importAddress: Guid(faf1942695a31bb4098646260a9aca4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Sprites/CharacterTopDown.controller using Guid(faf1942695a31bb4098646260a9aca4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '26276b7435be15d0ace4982116daf84e') in 0.0167058 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=484c755e6d38c2a1737013e69c92a662 DependenciesID=9227775f2c108a178446c4006d2e5b29 StaticDependenciesID=5471b822086d4c3914e8ec13766d242d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Scripts/PlayerCharacter.cs
+  importAddress: Guid(792237b3c87ee6b4c90a74cd87026a89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Scripts/PlayerCharacter.cs using Guid(792237b3c87ee6b4c90a74cd87026a89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '13f42b1fd1a55eba2fe606a9f7b49863') in 0.008196 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a6c748fbd66b7314ecac8dbf37454da4 DependenciesID=d4c9707e5713bd80c177d3b6979f06a9 StaticDependenciesID=8a7ae1b0352a21af2748dcc481fd2d4a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Scripts/PlayerControls.cs
+  importAddress: Guid(ec80819f2b286fd4a94401058273799d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Scripts/PlayerControls.cs using Guid(ec80819f2b286fd4a94401058273799d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1c4b03158db8befe370c27b830a7b0e7') in 0.0087137 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54166b56dff7857cca80d444ba12fce7 DependenciesID=6d37389b9c9027ef6975f2280104ada7 StaticDependenciesID=0478c05977d31aea7f664aa7b27b58cf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-flat-right.png
+  importAddress: Guid(fdb6762baa21c594e8565f17faa803e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-flat-right.png using Guid(fdb6762baa21c594e8565f17faa803e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'df75e4a1c72c529ca2af2a14e6ee8548') in 0.0153237 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df556b609fe87dfb865ce44daa4a95ca DependenciesID=62b57b3fc759432bb7fb3db73924d194 StaticDependenciesID=760fee22427aa31932b85e154ca34200 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Character/Character_hold.png
+  importAddress: Guid(c09eb5063ee64fd41b9c3e868ef7504b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Character/Character_hold.png using Guid(c09eb5063ee64fd41b9c3e868ef7504b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8499a9522ccbd2db30120c815cd96410') in 0.0249743 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3fea78119172ea42fe6667e4d631f11a DependenciesID=86b35f8c286fb14e89435c00e8985435 StaticDependenciesID=30ebbffc128d807a103e32c1f12b3f10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_5.asset
+  importAddress: Guid(868bfc083d111bc4fb3199b0409700e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_5.asset using Guid(868bfc083d111bc4fb3199b0409700e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a8fac836f4797b8888b460e59a8f891c') in 0.016239 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d0ba081a8c5d599390e0ef982cc41ae DependenciesID=e6511371a2b3cd52b420e670de99a4b9 StaticDependenciesID=8ffb2eb953a3f602fdaba87332867c8c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Character/CharacteAnimWalk.anim
+  importAddress: Guid(2b5473a29e5640244888df8ba46084bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Character/CharacteAnimWalk.anim using Guid(2b5473a29e5640244888df8ba46084bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '76c425b1ddfc80aa5c2aac88ae214346') in 0.0125956 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0038e9d404332788ff656ff4459dde46 DependenciesID=7fcbb3966651033c0ac3eaff20577527 StaticDependenciesID=6bcbff4614f3e94e21fafc326caa0f38 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-empty.png
+  importAddress: Guid(bb442bf150e81e44aa15a7d077be93b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-empty.png using Guid(bb442bf150e81e44aa15a7d077be93b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '55ece3176908a80c864df96c8185e9ff') in 0.0173114 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9f51d78511219c5a83379bf35d17288 DependenciesID=dd31839afae9b13d3d0b723870edef15 StaticDependenciesID=6f6daac1d6fad22c07aa3ba10dd5a726 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-right.png
+  importAddress: Guid(09691ca67a8d9034ba6f81010c3fa38f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-right.png using Guid(09691ca67a8d9034ba6f81010c3fa38f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '940f664b2206a59278f2f9d0875befb7') in 0.0160677 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce6abfb7933279492cf20f30e4fc0116 DependenciesID=c0715c61ee7e4dfb83e4a95b42eb33e1 StaticDependenciesID=64a58c90df6f91af89839af0737e13e4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left-down.png
+  importAddress: Guid(bb50bdaa94b52cd4fa0168abe21d22cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left-down.png using Guid(bb50bdaa94b52cd4fa0168abe21d22cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cd1093d628f16c0de91c301a332267ac') in 0.0175072 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d75b4d0d943e07d8717f0a32a5926b8 DependenciesID=bb5028736a047720340e6d930d09eb3e StaticDependenciesID=d734bf3bba06137d310e477fd31d1eaf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-right-down.png
+  importAddress: Guid(b009aaf79b40ccf4ca9f2e51182e5591) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-right-down.png using Guid(b009aaf79b40ccf4ca9f2e51182e5591) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b61deaae6ab61bf7dcdcb8693f94aa3a') in 0.0185817 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=751eff989dd6b6d7255262f5847e4904 DependenciesID=a2b40e46a12d67a2baddfd273c8cb873 StaticDependenciesID=6e5e80c2251cf0b922c948dfdcf6fbae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-right-down.asset
+  importAddress: Guid(9f6238b263e800f41b3ab3601c0312f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-right-down.asset using Guid(9f6238b263e800f41b3ab3601c0312f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b68ae83a60c19368b499c3bbebcd6222') in 0.0141193 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b63475c7344d649fa74284c939dcca3 DependenciesID=d00c531c7bd6c2ec55283560d23321b2 StaticDependenciesID=586df4d9e2a323873a302c9bba239e61 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Lever/Lever_position02.png
+  importAddress: Guid(b937c083690a18143bda92e16843be1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Lever/Lever_position02.png using Guid(b937c083690a18143bda92e16843be1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aa2b6a69ac1887815ea95c1edfcbe622') in 0.0187515 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b33e21f6a8bebf3c4f60c304b8dafbea DependenciesID=b687a294d654656866c5d43beb33e925 StaticDependenciesID=e474d3a4b6d599050aa0aa4aaf00daae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-corner-left.png
+  importAddress: Guid(2ed2ff16ad6b6844aac598aa6c5383ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-corner-left.png using Guid(2ed2ff16ad6b6844aac598aa6c5383ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '70a38f33a7cef8b25d80e52febfb27f2') in 0.0151012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b84a37dd79813e666205da1459c10060 DependenciesID=ff6c5e0c1d48c34fb06b341bc3de99db StaticDependenciesID=8a302d921ad0d12b10ad1096790ddf00 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_0.asset
+  importAddress: Guid(09fdae6fda6d6c942b840d4b7389de95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_0.asset using Guid(09fdae6fda6d6c942b840d4b7389de95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '90343c2515fc965e36df17b9c8e39a71') in 0.012014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b3605b910c305e6167f72f8aaec17e1 DependenciesID=0f97e93ceadf9cd5a60365e09b7246c6 StaticDependenciesID=55b47287a59040882bc72defa0ee4fbb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterRightHold.anim
+  importAddress: Guid(b83447e05b83ae44d8907a3aa6ea3890) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Sprites/CharacterRightHold.anim using Guid(b83447e05b83ae44d8907a3aa6ea3890) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '852a67eea76596b794ac9e114c5b7f21') in 0.0129715 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=865e83742c553b6d9bb8f704d6fac41e DependenciesID=eed9a4369d7506efc486e9090fed81fa StaticDependenciesID=1e5297b13ee0a216f63f85abfe1612c9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_3.asset
+  importAddress: Guid(84c89209ecaab8143ad3cf14f2be3043) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_3.asset using Guid(84c89209ecaab8143ad3cf14f2be3043) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dce7b02c64ebda1ff8cacc680bd70e8e') in 0.0152334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9af7e570f38686933b12d9b55b7540c8 DependenciesID=d9084d1d60d9d7b75041f57494f0f0dd StaticDependenciesID=c82f5043e0121882d53853b87ca0e9c9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees2.png
+  importAddress: Guid(4a0949bc6841db643be4f6f441e352ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees2.png using Guid(4a0949bc6841db643be4f6f441e352ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1060ce094f18bbe1b9b3c99a83aa65da') in 0.0174865 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40bf642916e26e73441ca2a39dc16055 DependenciesID=97a3e922df5947f0c40275c5dc9f0833 StaticDependenciesID=0f939c4b5252732ce939daebecb67458 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Scripts/CharacterAnim.cs
+  importAddress: Guid(d8b153895a8d9dd4fa1368f22e63bcf5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Scripts/CharacterAnim.cs using Guid(d8b153895a8d9dd4fa1368f22e63bcf5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c68ef9574ee74022b974cdd516e6196c') in 0.0096609 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=787f3f01016fa1241cc033149fb954b1 DependenciesID=8af6be0b96b0d617e919b21f727d9fb2 StaticDependenciesID=cb9bfba2710f4925deabeb9caaa412fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Scripts/Door.cs
+  importAddress: Guid(49236d71f86b65a49a078844ff2f0306) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Scripts/Door.cs using Guid(49236d71f86b65a49a078844ff2f0306) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5dfdf11c097b67b8d891420a28e7b9e1') in 0.010778 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ac0213012a15d0888e467ae6a67fdd9 DependenciesID=479af1898d9712de5a60c92f2c2b553b StaticDependenciesID=6a8469fa9743a6c7b18e0c2032555978 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Sprites/CharacterRight.anim
+  importAddress: Guid(ee4ee680d5c0ebc498c369b9686b7fec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Sprites/CharacterRight.anim using Guid(ee4ee680d5c0ebc498c369b9686b7fec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '73a8cda995bb808febd00ad9575c6e10') in 0.012766 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9635ea9c752ce4e32ac67626fdbc0dfc DependenciesID=0d96065515de52c011f5a8c7d06a58ec StaticDependenciesID=526a14ddec62c9441c167f499a01bd5c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Prefabs/Wall.prefab
+  importAddress: Guid(56fb0ce47c1c4b740bf390aa7767049e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Prefabs/Wall.prefab using Guid(56fb0ce47c1c4b740bf390aa7767049e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4e7623989dc039fdee08295de678dcee') in 0.0212114 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4926086c5cd3a7d7500d0d38dd575386 DependenciesID=44fd620c023aa835b15f4587fe759a1f StaticDependenciesID=61d4a2f01900b12aac778e12d09678b7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Scripts/Lever.cs
+  importAddress: Guid(755ecac09c1a1b84cb565d5c02636242) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Scripts/Lever.cs using Guid(755ecac09c1a1b84cb565d5c02636242) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c8e20bc4857757738b09f48757641fdc') in 0.0106688 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d55dd2a89858d186abb58547f93f914 DependenciesID=bd891af4f0ecd2db1369855c9d6d8aba StaticDependenciesID=4435d092ed48b5c56487a98419f2e6ae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Circle.png
+  importAddress: Guid(e28f62e17ab915240aaa2eed417db312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Circle.png using Guid(e28f62e17ab915240aaa2eed417db312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0e2e560b86a1566bf3e4b708039d87d1') in 0.018356 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=34ec69c8ab02693417788b48e606d1fd DependenciesID=81c88ee53d38619e3d10871a7bf3660d StaticDependenciesID=bc7540dc85a294a0f7e6117cccbf82f5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Character/CharacteAnimCrouch.anim
+  importAddress: Guid(da5293bf6231de2409e4676c5709f3d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Character/CharacteAnimCrouch.anim using Guid(da5293bf6231de2409e4676c5709f3d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5ee090846cff093c14921509fbd36bb5') in 0.0117911 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=970c945ce0bea770adc6a0dc28934c3b DependenciesID=a52d86d4e3e2c7ce5ee127e8f6018569 StaticDependenciesID=f0a02826e95bf1b01d0bc15ab023b078 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-right.png
+  importAddress: Guid(bc5ab3a00dbef2648a95c20d90cae609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-right.png using Guid(bc5ab3a00dbef2648a95c20d90cae609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e52a530d1dbe337cd7bff86cfbfd18e6') in 0.017743 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60f0c63f3846572c1b2eeca3b312edbc DependenciesID=5171d7b39cfa2b344acd7c999b72e9d6 StaticDependenciesID=5121cd9f5f337f621c3dd40ef437f3e3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Scripts/TheAudio.cs
+  importAddress: Guid(0a47fb4f3f8b4424daa075a6a2506084) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Scripts/TheAudio.cs using Guid(0a47fb4f3f8b4424daa075a6a2506084) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '485d77601032ce5d1d604ee368153063') in 0.0097495 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e2a9b72c7a2ff17cf14bb951a141606 DependenciesID=d9a1b13ef160525d1d7a51263b4de0f7 StaticDependenciesID=81b41b24033839fbdc10c2bd4b4792e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity
+  importAddress: Guid(69c3efc1478e47d4f917160b01e0f6b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/TopDownDemo3D.unity using Guid(69c3efc1478e47d4f917160b01e0f6b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '883371905707ccbc1d95a926f80cda92') in 0.0151244 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=850372a495f01c5f7e5a2dfc2eb55c88 DependenciesID=b6d64eb1aac4073edf75dd02180cd359 StaticDependenciesID=039dfec32a701a33cb09e8b1caca8fbc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Textures/door.png
+  importAddress: Guid(f84c802390848d34887201fc1d69cadb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Textures/door.png using Guid(f84c802390848d34887201fc1d69cadb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4448f0ce25a86adf39c8df6db9a2c495') in 0.0218008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15066c968f2deb9ce6b574348d41e610 DependenciesID=22b634211f116e53b4d85ef23918d340 StaticDependenciesID=1e25924616f272770a381796706aec50 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IndieMarc/TopDownDemo/Prefabs/Shadow.prefab
+  importAddress: Guid(e8eef653ff1b630449f70b418288c65e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/TopDownDemo/Prefabs/Shadow.prefab using Guid(e8eef653ff1b630449f70b418288c65e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '50df1a1291ef3d74995e7c8ad526faa7') in 0.0150453 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e70d2620e4b11d671643ee71bdbd6f8f DependenciesID=bf3e2794a7e36539392842b654343dba StaticDependenciesID=5f40a4b7ddcfc290046320a409aa9e2f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/CircleBlur.png
+  importAddress: Guid(74f7f12e816b4af47b2c22f055f5629a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/CircleBlur.png using Guid(74f7f12e816b4af47b2c22f055f5629a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '100b6045e0b5619fdf61b8e6a0aaf783') in 0.0191049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48c81d9a6e265cf9563aaa7f26443414 DependenciesID=8f760bf2d8ffe5b693df95254b94a670 StaticDependenciesID=6d9774d025a915be845b90068f33bbc9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-empty.png
+  importAddress: Guid(b1c43cf59bc540d418cae9aefbcf70bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-empty.png using Guid(b1c43cf59bc540d418cae9aefbcf70bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5373dba10ea2dfdbe274f5a61836af77') in 0.0187244 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a99621fe289b5db61302109e053e3189 DependenciesID=5b83aba6973810430341a532dbd23122 StaticDependenciesID=8802e1a429320db07762dd1295ae3f6f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_2.asset
+  importAddress: Guid(03ce0cd312718b7489e027fe32ae4160) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_2.asset using Guid(03ce0cd312718b7489e027fe32ae4160) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f46db4850187afa315503704e3bc23d1') in 0.0117675 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=504915c74a02e77e354fa45a315c7d5f DependenciesID=0d8189754e61d75ee4ba32ade1d5ca61 StaticDependenciesID=a107614c0e03fae40733ddfa271d9629 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_1.asset
+  importAddress: Guid(5fe1d3b9c2ba44c408340f4db04454d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_1.asset using Guid(5fe1d3b9c2ba44c408340f4db04454d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '91963fd1a0178cc7f98f43c26b93bd78') in 0.0113981 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ffc2421e97bb8f8622e1d20d6e0e181 DependenciesID=75f80cdade497624a5e1b50836f661dd StaticDependenciesID=bb9d696cf395c439a8df0cc8076b2652 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Character/CharacteAnimWalkHold.anim
+  importAddress: Guid(a941e751a49f2324985e65d6ff3bdbf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Character/CharacteAnimWalkHold.anim using Guid(a941e751a49f2324985e65d6ff3bdbf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '14d189405b75607d7cfd0f790f94c594') in 0.0104417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83b990e65dcb8e60859f56beaecb50bc DependenciesID=230786f616dd44dcf27444d37b746725 StaticDependenciesID=ec542199474681443b3a1f2b3e6d1799 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-right.png
+  importAddress: Guid(ae1e5991a6557274185863f4e348dd7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-right.png using Guid(ae1e5991a6557274185863f4e348dd7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '591c00a1d1f955518011ebd163c63afb') in 0.0162805 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=adabee68d505cc4b229dee77c390b8a0 DependenciesID=823fa6f1d1ec0429d1e5c4875df06c79 StaticDependenciesID=55c3ebd25ab5bd3b05a6b2121f66d5da 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-left-down.png
+  importAddress: Guid(fddc7c8728fa8db4cb14d68bc97bf696) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-left-down.png using Guid(fddc7c8728fa8db4cb14d68bc97bf696) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dd8ed7d9d67c1df997610f5797af99e4') in 0.0170469 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b530e4fa46e345afb9611f47a8845f45 DependenciesID=a46f033eeb8d480d8c8d7abd9432113d StaticDependenciesID=217ce434470a1e561593d4addcf61ca3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-left.png
+  importAddress: Guid(e541601047018134ebfde1ba25d41313) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-left.png using Guid(e541601047018134ebfde1ba25d41313) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f2b87ea10f015b08bf4189483f37a5b2') in 0.0172217 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47c3e75b402f3a01a788c284a401c9ec DependenciesID=1744f2a8bcb447e2a3a4f8fafda0a54d StaticDependenciesID=6b5ddcad25fa3be865dcda76d32f0484 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
